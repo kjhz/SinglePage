@@ -380,6 +380,9 @@ button.navbar-toggle:hover span::after {
 	border-bottom: 1px solid transparent;
 }
 @media (min-width: 992px) {
+	.navbar-collapse {
+		display: block !important;
+	}
 	.navbar-toggle {
 		display: none;
 	}
